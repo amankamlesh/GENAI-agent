@@ -1,0 +1,47 @@
+# ------------------------------
+# Streamlit web app
+# ------------------------------
+streamlit==1.26.0
+
+# ------------------------------
+# LangChain core library
+# ------------------------------
+langchain==0.2.2
+
+# ------------------------------
+# LangChain Community tools & callbacks
+# Includes: StreamlitCallbackHandler, ArxivQueryRun, WikipediaQueryRun, DuckDuckGoSearchRun
+# ------------------------------
+langchain-community==0.0.34
+
+# ------------------------------
+# Groq LLM integration
+# ------------------------------
+langchain-groq==0.1.0
+
+# ------------------------------
+# Environment variable management
+# ------------------------------
+python-dotenv==1.0.0
+
+# ------------------------------
+# DuckDuckGo search support (Python 3.10 compatible)
+# ------------------------------
+duckduckgo-search==2.5.0
+
+# ------------------------------
+# HTTP requests (used by Arxiv/Wikipedia wrappers)
+# ------------------------------
+requests==2.31.0
+
+# ------------------------------
+# Required by ArxivAPIWrapper
+# ------------------------------
+arxiv==1.4.0
+
+# ------------------------------
+# Optional: for embeddings / HF models
+# ------------------------------
+transformers==4.33.0
+sentence-transformers==2.2.2
+tiktoken==0.4.0
