@@ -1,5 +1,4 @@
 GENAI-Agent
-
 An AI-powered research assistant built with LangChain, Streamlit, and Groq LLMs.
 This project lets you query Arxiv, Wikipedia, and DuckDuckGo in natural language, and the agent will fetch, process, and summarize results for you.
 
