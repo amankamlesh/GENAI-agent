@@ -1,10 +1,10 @@
 # Core framework
 streamlit==1.37.0
 
-# LangChain ecosystem (compatible versions)
+# LangChain ecosystem (all in sync)
 langchain==0.3.7
 langchain-community==0.3.7
-langchain-core==0.3.14
+langchain-core==0.3.15
 langchain-groq==0.1.9
 
 # Environment + utilities
@@ -23,4 +23,4 @@ sentence-transformers==3.2.0
 
 # Data handling
 pandas==2.2.3
-numpy==1.26.4  # Python 3.13 requires 1.26+, not 1.25 or lower
+numpy==1.26.4  # Required for Python 3.13
